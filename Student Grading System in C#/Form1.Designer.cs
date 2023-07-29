@@ -39,10 +39,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.mid = new System.Windows.Forms.Label();
-            this.final = new System.Windows.Forms.Label();
+            this.practical = new System.Windows.Forms.Label();
             this.tb_attendance = new System.Windows.Forms.TextBox();
             this.tb_Mid = new System.Windows.Forms.TextBox();
-            this.tb_Final = new System.Windows.Forms.TextBox();
+            this.tb_Practical = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -58,7 +58,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.lb_total = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.lb_Final = new System.Windows.Forms.Label();
+            this.lb_Practical = new System.Windows.Forms.Label();
             this.lb_quiz = new System.Windows.Forms.Label();
             this.lb_mid = new System.Windows.Forms.Label();
             this.lb_attendance = new System.Windows.Forms.Label();
@@ -184,15 +184,15 @@
             this.mid.TabIndex = 11;
             this.mid.Text = "Mid (Out of 75)";
             // 
-            // final
+            // Practical
             // 
-            this.final.AutoSize = true;
-            this.final.Location = new System.Drawing.Point(362, 333);
-            this.final.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.final.Name = "final";
-            this.final.Size = new System.Drawing.Size(88, 13);
-            this.final.TabIndex = 12;
-            this.final.Text = "Final (Out of 150)";
+            this.Practical.AutoSize = true;
+            this.Practical.Location = new System.Drawing.Point(362, 333);
+            this.Practical.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Practical.Name = "Practical";
+            this.Practical.Size = new System.Drawing.Size(88, 13);
+            this.Practical.TabIndex = 12;
+            this.Practical.Text = "Practical (Out of 150)";
             // 
             // tb_attendance
             // 
@@ -210,13 +210,13 @@
             this.tb_Mid.Size = new System.Drawing.Size(76, 20);
             this.tb_Mid.TabIndex = 14;
             // 
-            // tb_Final
+            // tb_Practical
             // 
-            this.tb_Final.Location = new System.Drawing.Point(468, 333);
-            this.tb_Final.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tb_Final.Name = "tb_Final";
-            this.tb_Final.Size = new System.Drawing.Size(76, 20);
-            this.tb_Final.TabIndex = 15;
+            this.tb_Practical.Location = new System.Drawing.Point(468, 333);
+            this.tb_Practical.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_Practical.Name = "tb_Practical";
+            this.tb_Practical.Size = new System.Drawing.Size(76, 20);
+            this.tb_Practical.TabIndex = 15;
             // 
             // pictureBox1
             // 
@@ -374,16 +374,16 @@
             this.label14.TabIndex = 51;
             this.label14.Text = "Total :";
             // 
-            // lb_Final
+            // lb_Practical
             // 
-            this.lb_Final.AutoSize = true;
-            this.lb_Final.Location = new System.Drawing.Point(152, 154);
-            this.lb_Final.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lb_Final.Name = "lb_Final";
-            this.lb_Final.Size = new System.Drawing.Size(41, 13);
-            this.lb_Final.TabIndex = 50;
-            this.lb_Final.Text = "label17";
-            this.lb_Final.Visible = false;
+            this.lb_Practical.AutoSize = true;
+            this.lb_Practical.Location = new System.Drawing.Point(152, 154);
+            this.lb_Practical.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_Practical.Name = "lb_Final";
+            this.lb_Practical.Size = new System.Drawing.Size(41, 13);
+            this.lb_Practical.TabIndex = 50;
+            this.lb_Practical.Text = "label17";
+            this.lb_Practical.Visible = false;
             // 
             // lb_quiz
             // 
@@ -489,7 +489,7 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.lb_total);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.lb_Final);
+            this.Controls.Add(this.lb_Practical);
             this.Controls.Add(this.lb_quiz);
             this.Controls.Add(this.lb_mid);
             this.Controls.Add(this.lb_attendance);
@@ -509,10 +509,10 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.tb_Final);
+            this.Controls.Add(this.tb_Practical);
             this.Controls.Add(this.tb_Mid);
             this.Controls.Add(this.tb_attendance);
-            this.Controls.Add(this.final);
+            this.Controls.Add(this.Practical);
             this.Controls.Add(this.mid);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -548,10 +548,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label mid;
-        private System.Windows.Forms.Label final;
+        private System.Windows.Forms.Label Practical;
         private System.Windows.Forms.TextBox tb_attendance;
         private System.Windows.Forms.TextBox tb_Mid;
-        private System.Windows.Forms.TextBox tb_Final;
+        private System.Windows.Forms.TextBox tb_Practical;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -567,7 +567,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lb_total;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label lb_Final;
+        private System.Windows.Forms.Label lb_Practical;
         private System.Windows.Forms.Label lb_quiz;
         private System.Windows.Forms.Label lb_mid;
         private System.Windows.Forms.Label lb_attendance;
