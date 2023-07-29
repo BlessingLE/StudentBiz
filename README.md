@@ -1,4 +1,5 @@
 # StudentBiz
+Development
 
 Studentbiz is a windows application created to assist students in calculating their participation marks. 
 It calculates the final participation mark based on the students quiz, practical, mid-semester and attendance marks.
