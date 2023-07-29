@@ -1,0 +1,10 @@
+C:\Users\Mark\Desktop\Sttudent Grading System\bin\Debug\Student Grading System.exe.config
+C:\Users\Mark\Desktop\Sttudent Grading System\bin\Debug\Student Grading System.exe
+C:\Users\Mark\Desktop\Sttudent Grading System\bin\Debug\Student Grading System.pdb
+C:\Users\Mark\Desktop\Sttudent Grading System\obj\Debug\Univesity_Grade_Calculator.Form1.resources
+C:\Users\Mark\Desktop\Sttudent Grading System\obj\Debug\Student_Grading_System.Properties.Resources.resources
+C:\Users\Mark\Desktop\Sttudent Grading System\obj\Debug\Student Grading System.csproj.GenerateResource.cache
+C:\Users\Mark\Desktop\Sttudent Grading System\obj\Debug\Student Grading System.csproj.CoreCompileInputs.cache
+C:\Users\Mark\Desktop\Sttudent Grading System\obj\Debug\Student Grading System.exe
+C:\Users\Mark\Desktop\Sttudent Grading System\obj\Debug\Student Grading System.pdb
+C:\Users\Mark\Desktop\Sttudent Grading System\obj\Debug\Student Grading System.csprojAssemblyReference.cache
